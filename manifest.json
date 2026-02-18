@@ -4,6 +4,9 @@
   "version": "1.0",
   "description": "Steam Web Extension for enhanced trading experience.",
   "action": {
-    "default_popup": "popup.html"
+    "default_popup": "popup.html",
+     "default_icon": {
+      "64": "icons/icon64.png"
+     }
   }
 }
