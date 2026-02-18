@@ -1,0 +1,9 @@
+{
+  "manifest_version": 3,
+  "name": "Steam Web Extension",
+  "version": "1.0",
+  "description": "Steam Web Extension for enhanced trading experience.",
+  "action": {
+    "default_popup": "popup.html"
+  }
+}
