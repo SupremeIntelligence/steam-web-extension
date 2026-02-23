@@ -2,19 +2,22 @@
 <html>
 <head>
   <meta charset="UTF-8">
-  <style>
-    body {
-      width: 200px;
-      height: 100px;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      font-family: Arial, sans-serif;
-      font-size: 20px;
-    }
-  </style>
+  <title>Steam Web Extension</title>
+  <link rel="stylesheet" href="styles/popup.css">
 </head>
 <body>
-  Hello World!
+  <div class="container">
+    <h2>Steam Web Extension</h2>
+
+    <input 
+      type="text" 
+      id="userInput" 
+      placeholder="Введите название скина"
+    />
+    <div id="output"></div>
+    <button id="submitBtn">Подтвердить</button>
+  </div>
+
+  <script src="popup.js"></script>
 </body>
 </html>
